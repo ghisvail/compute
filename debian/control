@@ -6,6 +6,10 @@ Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                libboost-dev (>= 1.48),
+               libboost-filesystem-dev (>= 1.48),
+               libboost-system-dev (>= 1.48),
+               libboost-test-dev (>= 1.48),
+               libboost-thread-dev (>= 1.48),
                ocl-icd-opencl-dev
 Standards-Version: 3.9.6
 Homepage: http://kylelutz.github.io/compute/
