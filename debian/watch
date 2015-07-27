@@ -1,0 +1,4 @@
+version=3
+opts=uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha)\d*)$/$1~$2/,\
+filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/compute-$1\.tar\.gz/ \
+  https://github.com/boostorg/compute/tags .*/v?(\d\S*)\.tar\.gz

@@ -1,0 +1,21 @@
+Source: compute
+Section: science
+Priority: optional
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               libboost-dev (>= 1.48),
+               ocl-icd-opencl-dev
+Standards-Version: 3.9.6
+Homepage: http://kylelutz.github.io/compute/
+Vcs-Git: git://anonscm.debian.org/debian-science/packages/compute.git
+Vcs-Browser: https://anonscm.debian.org/cgit/debian-science/packages/compute.git
+
+Package: libcompute-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends}
+Description: GPU Computing Library for OpenCL (development files)
+ This package provides the development files for the standalone Boost.Compute 
+ package.

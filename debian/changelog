@@ -1,0 +1,5 @@
+compute (0.4-1) UNRELEASED; urgency=low
+
+  * Initial release.
+
+ -- Ghislain Antony Vaillant <ghisvail@gmail.com>  Mon, 27 Jul 2015 11:11:49 +0100
