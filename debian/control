@@ -10,7 +10,7 @@ Build-Depends: cmake,
                libboost-system-dev (>= 1.48),
                libboost-test-dev (>= 1.48),
                libboost-thread-dev (>= 1.48),
-               ocl-icd-opencl-dev
+               ocl-icd-opencl-dev | opencl-dev
 Standards-Version: 3.9.6
 Homepage: http://kylelutz.github.io/compute/
 Vcs-Git: git://anonscm.debian.org/debian-science/packages/compute.git
