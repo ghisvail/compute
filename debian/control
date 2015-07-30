@@ -19,7 +19,8 @@ Vcs-Browser: https://anonscm.debian.org/cgit/debian-science/packages/compute.git
 Package: libcompute-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}
+Depends: ocl-icd-opencl-dev | opencl-dev,
+         ${misc:Depends}
 Description: cross-platform C++ library for GPU computing
  Boost.Compute is a GPU/parallel-computing library for C++ based on OpenCL.
  .
